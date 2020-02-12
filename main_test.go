@@ -34,7 +34,7 @@ func TestGetAllBook(t *testing.T) {
 
 func TestCreateBook(t *testing.T) {
 	log.Println("Test Create Book")
-	log.Println("Test 2")
+	log.Println("Test 3")
 	// r, err := http.Get("http://localhost:8888/api/get/allbook")
 	// if err != nil {
 	// 	log.Print(err)
