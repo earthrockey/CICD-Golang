@@ -7,7 +7,7 @@ import (
 
 func HomePage(w http.ResponseWriter, r *http.Request) {
 	enableCors(&w)
-	fmt.Fprint(w, "The service is work!")
+	fmt.Fprint(w, "The service is work! Test Ticker")
 }
 
 func enableCors(w *http.ResponseWriter) {
