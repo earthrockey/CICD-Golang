@@ -28,6 +28,7 @@ func HandleRequest() {
 }
 
 func main() {
+	log.Print("Test Ticker")
 	log.Print("The service is start on http://localhost" + getPort())
 	HandleRequest()
 }
