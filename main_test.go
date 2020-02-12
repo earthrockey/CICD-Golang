@@ -17,22 +17,24 @@ func TestOpenServer(t *testing.T) {
 
 func TestGetAllBook(t *testing.T) {
 	log.Println("Test Get All Book")
-	r, err := http.Get("http://localhost:8080/api/get/allbook")
+	r, err := http.Get("http://localhost:8888/api/get/allbook")
 	if err != nil {
 		log.Print(err)
+		t.Errorf("Error http.Get(\"http://localhost:8888/api/get/allbook\"): %s", err)
 	}
 	defer r.Body.Close()
 	var books []model.Book
 	err = json.NewDecoder(r.Body).Decode(&books)
 	if err != nil {
 		log.Print(err)
+		t.Errorf("Error json.NewDecoder(r.Body).Decode(&books): %s", err)
 	}
 	fmt.Println(books)
 }
 
 func TestCreateBook(t *testing.T) {
 	log.Println("Test Create Book")
-	// r, err := http.Get("http://localhost:8080/api/get/allbook")
+	// r, err := http.Get("http://localhost:8888/api/get/allbook")
 	// if err != nil {
 	// 	log.Print(err)
 	// }
