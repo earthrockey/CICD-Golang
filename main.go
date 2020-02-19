@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/earthrockey/CICD-Golang/controller"
+	"github.com/earthrockey/CICD/CICD-Golang/controller"
 )
 
 func getPort() string {
@@ -20,6 +20,7 @@ func HandleRequest() {
 	http.HandleFunc("/", controller.HomePage)
 
 	http.HandleFunc("/api/get/allbook", controller.GetAllBook)
+	http.HandleFunc("/api/get/bookbyid", controller.GetBookByID)
 	http.HandleFunc("/api/create/book", controller.CreateBook)
 	http.HandleFunc("/api/delete/bookbyid", controller.DeleteBookByID)
 	http.HandleFunc("/api/edit/bookbyid", controller.EditBookByID)

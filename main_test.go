@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/earthrockey/CICD-Golang/model"
+	"github.com/earthrockey/CICD/CICD-Golang/model"
 )
 
 func TestOpenServer(t *testing.T) {
@@ -45,5 +45,5 @@ func TestCreateBook(t *testing.T) {
 	// if err != nil {
 	// 	log.Print(err)
 	// }
-	// fmt.Println(books)  
+	// fmt.Println(books)
 }
