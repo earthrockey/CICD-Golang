@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/earthrockey/CICD/CICD-Golang/model"
+	"github.com/earthrockey/CICD-Golang/model"
 )
 
 func TestOpenServer(t *testing.T) {

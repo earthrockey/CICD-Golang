@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/earthrockey/CICD/CICD-Golang/model"
+	"github.com/earthrockey/CICD-Golang/model"
 )
 
 func GetAllBook(w http.ResponseWriter, r *http.Request) {

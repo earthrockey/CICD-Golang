@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/earthrockey/CICD/CICD-Golang/controller"
+	"github.com/earthrockey/CICD-Golang/controller"
 )
 
 func getPort() string {
