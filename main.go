@@ -29,6 +29,6 @@ func HandleRequest() {
 }
 
 func main() {
-	log.Print("The service is start on  http://localhost" + getPort())
+	log.Print("The service is start on http://localhost" + getPort())
 	HandleRequest()
 }
