@@ -1,1 +1,20 @@
-[{"id":1,"code":"b1","name":"book1","detail":"detail1"},{"id":2,"code":"b2","name":"book2","detail":"detail2"},{"id":4,"code":"b5917501","name":"Ratchapong","detail":"Very Smart"}]
+[
+    {
+        "id": 1,
+        "code": "b1",
+        "name": "book1",
+        "detail": "detail1"
+    },
+    {
+        "id": 2,
+        "code": "b2",
+        "name": "book2",
+        "detail": "detail2"
+    },
+    {
+        "id": 4,
+        "code": "b5917501",
+        "name": "Ratchapong",
+        "detail": "Very Smart"
+    }
+]
