@@ -31,19 +31,3 @@ func TestGetAllBook(t *testing.T) {
 	}
 	fmt.Println(books)
 }
-
-// func TestCreateBook(t *testing.T) {
-// 	log.Println("Test Create Book")
-// 	log.Println("Test 4")
-// 	// r, err := http.Get("http://localhost:8888/api/get/allbook")
-// 	// if err != nil {
-// 	// 	log.Print(err)
-// 	// }
-// 	// defer r.Body.Close()
-// 	// var books []model.Book
-// 	// err = json.NewDecoder(r.Body).Decode(&books)
-// 	// if err != nil {
-// 	// 	log.Print(err)
-// 	// }
-// 	// fmt.Println(books)
-// }
